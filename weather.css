@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background:linear-gradient(rgb(174, 174, 245),rgb(76, 76, 236),blue) ;
+    color: #ffffff;
+}
+.app > div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 2%;
+    align-items: center;
+    width: 30%;
+}
+
+.location-area marquee{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: cursive;
+}
+.degree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.degree span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.temp-desc{
+    font-style: italic;
+    font-family: cursive;
+}
